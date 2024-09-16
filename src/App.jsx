@@ -1,69 +1,18 @@
-import './App.css'
+import './App.css';
+import Card from './card';
 
 function App() {
-
   return (
-    <>
-      <div 
-        className="bg-fixed max-w-full" 
-        style={{  backgroundImage: `url('img/2f571a34d7334e863d41b7f09b35dd99.jpg')` }}
+    <div>
+      <div
+        className="bg-fixed h-screen bg-cover bg-center"
+        style={{ backgroundImage: "url('/img/wass.jpeg')" }}
       >
-        <div class = "justify-center">
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  <h1>hi</h1>
-  </div>  
+   <Card />
       </div>
-    </>
-  )
+   
+    </div>
+  );
 }
 
-export default App
+export default App;
