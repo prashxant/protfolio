@@ -18,8 +18,10 @@ function Button() {
          </a>
          </div>
         </div>
+        <br />
         <div className="p-2  ">
         <div  className="flex justify-center  gap-4">
+      
         <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4  rounded shadow">
             About
         </button> 
@@ -30,7 +32,7 @@ function Button() {
             Resume
         </button>  
         <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4  rounded shadow">
-            Skills
+            Projects
         </button>    
                   
         </div>

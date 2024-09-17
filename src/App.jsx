@@ -1,16 +1,19 @@
 import './App.css';
-import Card from './card';
+import Home from './landingPage/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <div>
-      <div
-className="bg-fixed h-screen bg-cover bg-center"style={{ backgroundImage: "url('/img/wass.jpeg')" }}>
-   <Card />
-      </div>
-   
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
 
 export default App;
+  
