@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Button() {
     return (
        <div className="p-2 ">
@@ -21,20 +23,24 @@ function Button() {
         <br />
         <div className="p-2  ">
         <div  className="flex justify-center  gap-4">
-      
+        <Link to="/about">
         <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4  rounded shadow">
             About
         </button> 
+          </Link>
+          <Link to="/blog">
         <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4  rounded shadow">
             Blog
         </button>
+        </Link>
         <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4  rounded shadow">
             Resume
         </button>  
+        <Link to="/project">
         <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4  rounded shadow">
             Projects
         </button>    
-                  
+        </Link>
         </div>
         </div>
        </div>
