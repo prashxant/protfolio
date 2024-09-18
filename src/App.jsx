@@ -3,7 +3,7 @@ import Home from './landingPage/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Abt from './about/Abt'; 
 import Project from './projects/project';
-import Blog from './Blog/blog';
+import Blog from './Blog/Blog';
 
 function App() {
   return (
